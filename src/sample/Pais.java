@@ -60,12 +60,9 @@ public class Pais {
 
     @Override
     public String toString() {
-        return "Pais{" +
-                "name='" + name + '\'' +
-                ", capital='" + capital + '\'' +
-                ", fundacion='" + fundacion + '\'' +
-                ", extension='" + extension + '\'' +
-                ", bandera=" + bandera +
-                '}';
+        return "Nombre = " + name + '\n' +
+                "Capital = " + capital + '\n' +
+                "Fundacion = " + fundacion + '\n' +
+                "Extension = " + extension;
     }
 }
